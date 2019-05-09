@@ -1,0 +1,67 @@
+name: multiplatform
+description: Tracks fruit and veggie consumption. Vitamins FTW!
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.3.0-dev.0.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  intl: ^0.15.8
+  json_annotation: ^2.2.0
+  path_provider: ^1.0.0
+  provider: ^2.0.0
+
+dev_dependencies:
+  pedantic: ^1.4.0
+  build_runner: ^1.0.0
+  json_serializable: ^2.2.1
+
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/apple.jpg
+    - assets/images/artichoke.jpg
+    - assets/images/asparagus.jpg
+    - assets/images/avocado.jpg
+    - assets/images/blackberry.jpg
+    - assets/images/cantaloupe.jpg
+    - assets/images/cauliflower.jpg
+    - assets/images/endive.jpg
+    - assets/images/fig.jpg
+    - assets/images/grape.jpg
+    - assets/images/green_bell_pepper.jpg
+    - assets/images/habanero.jpg
+    - assets/images/kale.jpg
+    - assets/images/kiwi.jpg
+    - assets/images/lemon.jpg
+    - assets/images/lime.jpg
+    - assets/images/mango.jpg
+    - assets/images/mushroom.jpg
+    - assets/images/nectarine.jpg
+    - assets/images/persimmon.jpg
+    - assets/images/plum.jpg
+    - assets/images/potato.jpg
+    - assets/images/radicchio.jpg
+    - assets/images/radish.jpg
+    - assets/images/squash.jpg
+    - assets/images/strawberry.jpg
+    - assets/images/tangelo.jpg
+    - assets/images/tomato.jpg
+    - assets/images/watermelon.jpg
+    - assets/images/orange_bell_pepper.jpg
